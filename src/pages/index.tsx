@@ -64,7 +64,7 @@ export default function Home() {
             />
           </a>
       <h2 id="inicio" className="pt-[86px]"></h2>
-      <video autoPlay loop muted className="w-full">
+      <video autoPlay playsInline loop muted className="w-full">
         <source src={`/video1.mp4`}/>
       </video>
 
@@ -113,9 +113,9 @@ export default function Home() {
         />
       </div>
       <div className=""><h2>
-        <video src="/video2.mp4" autoPlay loop muted className="w-full"></video>
+        <video src="/video2.mp4" autoPlay loop muted playsInline className="w-full"></video>
         <div className="flex mt-10 justify-center items-center">
-          <video src="/video2.mp4" autoPlay loop muted className="w-[200px]"></video>
+          <video src="/video2.mp4" autoPlay loop muted playsInline className="w-[200px]"></video>
           <p className="text-[12px] mx-2 ">Meu nome é Maria Ferraz. Sou estudante de Marketing, criadora de
             conteúdo digital, storymaker mobile e especialista em transformar
             rotinas reais em narrativas que conectam. Acredito na força da
