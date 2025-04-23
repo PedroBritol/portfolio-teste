@@ -3,10 +3,14 @@ import { Carousel } from 'primereact/carousel';
 import { Playwrite_AU_SA } from 'next/font/google';
 import Image from "next/image";
 
+interface Product {
+  id: number;
+  name: string;
+  image: string;
+}
 
 const font = Playwrite_AU_SA({
   weight: ["400"],
-  subsets: ['latin'],
 });
 
 export default function Home() {
@@ -34,7 +38,7 @@ export default function Home() {
         numScroll: 1
     }
 ];
-  const productTemplate = (product: any) => {
+  const productTemplate = (product: Product) => {
     return (
         <div className="flex flex-col items-center">
             <img src={product.image} alt={product.name} className="w-32 h-32 object-cover" />
