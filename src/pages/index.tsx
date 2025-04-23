@@ -76,7 +76,7 @@ export default function Home() {
       <div className="flex flex-col mt-10">
         <div className="m-10 flex items-center justify-start">
           <a href="/portifolio">
-            <Image src="/instagram.jpg" width={180} height={180} />
+            <Image src="/instagram.jpg" width={180} height={180} alt=""/>
             <span className="text-[12px] ml-4">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             </span>
@@ -86,10 +86,10 @@ export default function Home() {
           <span className="text-[12px] ml-4">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           </span>
-          <Image src="/instagram.jpg" width={180} height={180} />
+          <Image src="/instagram.jpg" width={180} height={180} alt=""/>
         </div>
         <div className="m-10 flex items-center justify-start">
-          <Image src="/instagram.jpg" width={180} height={180} />
+          <Image src="/instagram.jpg" width={180} height={180} alt=""/>
           <span className="text-[12px] ml-4">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           </span>
